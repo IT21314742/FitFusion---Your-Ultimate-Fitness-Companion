@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  transition: all 0.2s;
+  text-decoration: none;
+}
+.container_nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav_bloc {
+  color: black;
+  display: block;
+  width: 100%;
+  z-index: 8888888888888888888888888888;
+  position: fixed;
+}
+.sidebar {
+  color: black;
+  height: 100vh;
+  padding: 0 10px 0 0;
+  display: block;
+  margin-top: 65px;
+  transition: all 0.5s;
+  position: fixed;
+}
+.span_bk_box {
+  background-color: #f87f22;
+  margin: 0;
+  border-radius: 100%;
+  width: 40px;
+  display: flex;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+.icon_nav {
+  color: white;
+}
+.nav_item {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 8px 0;
+  gap: 10px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.nav_item_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navitm_side_card {
+  padding: 25px;
+  margin: 8px;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
