@@ -1,0 +1,198 @@
+.main_cart_section {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  align-items: center;
+  text-transform: capitalize;
+  margin: 0 0 10px 0;
+}
+.user_icon {
+  font-size: 40px;
+  color: #151515;
+}
+.name_post_owner {
+  font-size: 20px;
+  font-weight: bold;
+}
+.gmil_post_owner {
+  color: #15151595;
+  text-transform: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+.title_post {
+  margin: 0 0 8px 0;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 23px;
+}
+.descriptin_post {
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.img_post_photo {
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+.card_details_card {
+  width: 550px;
+  padding: 20px;
+  background-color: white;
+  margin: 25px 0;
+  height: auto;
+  border: 1px solid #15151553;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjust the shadow values as needed */
+}
+.card_box_post {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 0 18%;
+  border: 0;
+  margin: 15px;
+  gap: 30px;
+}
+
+.postbtn {
+  background-color: #151515;
+  font-size: 25px;
+  border: 2px solid white;
+  margin: 20px 0;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 80px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  margin-left: auto;
+
+  justify-content: end;
+}
+.postbtn:hover {
+  background-color: #15151500;
+}
+.btn_main {
+  padding: 0 18%;
+}
+.topic_post {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.mrg {
+  margin: 8px 0;
+}
+.new_card_add {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 550px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #15151553;
+}
+.crep {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.573);
+  font-size: 20px;
+}
+.mind_div {
+  text-transform: capitalize;
+  background-color: #15151516;
+  padding: 8px;
+  height: 80px;
+  color: #15151596;
+  margin: 8px 0;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.addpot_btn {
+  background-color: #f87f22;
+  color: white;
+  margin-left: auto;
+  border: 1px solid #f87f22;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 4px 10px;
+  display: flex;
+}
+
+.like-btn {
+  color: #0056b3;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.totolike {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  width: 70px;
+}
+.btneset {
+  font-size: 40px;
+  cursor: pointer;
+}
+.post_action {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itempost {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.btn_set_cls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topi_post{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.post_bk{
+  padding: 8px 20px;
+  margin: 30px 0;
+  border-radius: 8px;
+  background-color: rgb(224, 224, 224);
+}
+.btn_cont_pos{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.booknow_btn{
+  background-color: #f87f22;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 1px solid #f87f22;
+  font-size: 20px;
+  color: white;
+}
+.btn_dash_admin_dlt{
+  background-color: red;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: 1px solid red;
+}
