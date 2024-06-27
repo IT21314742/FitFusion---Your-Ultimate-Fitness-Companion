@@ -1,0 +1,131 @@
+.btnbtnlog {
+  border-radius: 6px;
+  padding: 4px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #021024;
+  font-size: 20px;
+  background-color: #021024;
+}
+
+.bk_colo_auth_log {
+  position: relative;
+}
+
+.bk_colo_auth_reg {
+  position: relative;
+}
+
+.topic_log {
+  font-size: 45px;
+  margin: 25px 0;
+  text-align: center;
+}
+.btnbtnlog:hover {
+  background-color: white;
+  color: #021024;
+}
+.auth_topic {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.leftbox_auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 430px;
+  background-size: cover;
+  background-image: url(./img/logimg.jpg);
+}
+.leftbox_auth_r {
+  flex: 1;
+  height: 530px;
+  background-size: cover;
+  background-image: url(../Register/img/reg.avif);
+}
+
+.auth_box {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  z-index: 10000;
+  display: flex;
+}
+.leftbox_auth {
+  flex: 1;
+}
+.rightbox_auth {
+  flex: 1;
+}
+.ful_log_div {
+  padding: 0 20%;
+}
+.auth_sub_box_log {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 8px;
+  background-color: white;
+  width: 1000px;
+  height: 450px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #021024;
+}
+.auth_sub_box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 8px;
+  background-color: white;
+  width: 1000px;
+  height: 550px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #021024;
+}
+.frominput_auth {
+  width: 100%;
+  margin: 8px 0;
+  font-size: 20px;
+  border: 2px solid #021024;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+.form_suth {
+  padding: 25px;
+}
+.form_lable_auth {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.noacc {
+  text-align: center;
+  margin: 8px 0;
+  color: #021024;
+  text-transform: capitalize;
+}
+.log_name {
+  font-size: 50px;
+  text-align: center;
+}
+.log_img_left {
+  border-radius: 8px;
+  width: 450px;
+}
+.reg_img_left {
+  border-radius: 8px;
+  width: 450px;
+  height: 60vh;
+}
+.bk_colo_auth {
+  background-color: #0210244e;
+}
